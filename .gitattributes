@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+MFCServer filter=lfs diff=lfs merge=lfs -text
+MFCClient filter=lfs diff=lfs merge=lfs -text
